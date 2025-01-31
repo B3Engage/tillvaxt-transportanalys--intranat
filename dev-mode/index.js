@@ -10,7 +10,7 @@ const io = require("socket.io")(server, {
 const chokidar = require("chokidar");
 
 // Define paths to files
-const scssFilePath = "../sv-modules/styling-module/src/components/App/Styles";
+const scssFilePath = "../webapps/styling-module/src/components/App/Styles";
 const cssFilePath = "dist/main.css";
 
 // Create a function to compile Sass to CSS
@@ -86,7 +86,7 @@ compileSass();
 // });
 
 // // Define paths to files
-// const scssFilePath = '../sv-modules/styling-module/src/components/App/Styles';
+// const scssFilePath = '../webapps/styling-module/src/components/App/Styles';
 // const cssFilePath = 'dist/main.css';
 
 // // Create a function to compile Sass to CSS

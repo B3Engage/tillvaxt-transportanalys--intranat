@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-deploy": "concurrently \"cd dev-mode && node index.js\" \"cd sv-modules/styling-module && npm run dev\" ",
+    "dev-deploy": "concurrently \"cd dev-mode && node index.js\" \"cd webapps/styling-module && npm run dev\" ",
     "dev": "cd dev-mode && node index.js",
-    "dev-styling": "cd sv-modules/styling-module && npm run dev",
-    "deploy": "concurrently \"cd sv-modules/styling-module && npm run build deploy\" ",
-    "force-deploy": "concurrently \"cd sv-modules/styling-module && npm run build force-deploy\" ",
-    "init-module": "concurrently \"cd sv-modules/styling-module && npm run create-addon && npm run build force-deploy\" "
+    "dev-styling": "cd webapps/styling-module && npm run dev",
+    "deploy": "concurrently \"cd webapps/styling-module && npm run build deploy\" ",
+    "force-deploy": "concurrently \"cd webapps/styling-module && npm run build force-deploy\" ",
+    "init-module": "concurrently \"cd webapps/styling-module && npm run create-addon && npm run build force-deploy\" "
   },
   "repository": {
     "type": "git",

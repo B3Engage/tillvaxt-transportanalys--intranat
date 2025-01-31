@@ -1,0 +1,17 @@
+{
+  "id": "styling-module",
+  "version": "0.0.2",
+  "name": {
+    "en": "Styling-module"
+  },
+  "author": "",
+  "description": {
+    "en": ""
+  },
+  "helpUrl": "",
+  "type": "WebApp",
+  "bundled": true,
+  "requiredLibs": {
+    "react": "17.0.2"
+  }
+}

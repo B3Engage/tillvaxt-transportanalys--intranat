@@ -35,7 +35,7 @@ router.get('/', (req, res) => {
     }
     return;
   }
-  const id = appInfo['jcr:uuid'];
+  const id = portletContext.getCurrentPage().getIdentifier() + '/' + appInfo['jcr:uuid'];
 
   const initialObject = {
     id,

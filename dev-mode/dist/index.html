@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B3 Grit - Devmode</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .container {
+        background-color: #00d4d6;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        height: 100vh;
+      }
+      .container * {
+        color: white;
+        font-family: "Work Sans", Arial;
+      }
+      .container p {
+        font-family: "Open Sans", Arial;
+        text-align: center;
+        margin: 0rem;
+      }
+      .logo {
+        margin-top: 2rem;
+        filter: invert(1);
+        width: 20%;
+        min-width: 10rem;
+        max-width: 20rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Utvecklar-läge är aktivt</h1>
+      <p>Filer servas lokalt ifrån din dator till localhost.</p>
+      <p>Sätt igång utvecklar-läge på webbplatsen så är du sen igång !</p>
+      <p>Information om detta utvecklar-läge kan du hitta på: [en länk]</p>
+      <p>
+        Filer som hostas utav denna server:
+        <a href="./main.css" target="_blank">main.css</a>
+      </p>
+      <img src="./assets/logo.png" class="logo" />
+    </div>
+  </body>
+</html>

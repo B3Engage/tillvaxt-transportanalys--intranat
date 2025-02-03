@@ -1,8 +1,7 @@
 // Utilities
-@import './utilities/_variables';
+@use './utilities/_variables';
 
 // General
-
 
 // Pages
 
@@ -10,18 +9,3 @@
 
 
 // Decorations
-
-:global {
-    // Utilities
-    @import './utilities/_variables';
-    
-    // General
-
-    
-    // Pages
-    
-    // Components
-
-
-    // Decorations
-}

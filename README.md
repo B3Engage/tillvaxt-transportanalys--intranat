@@ -21,7 +21,7 @@
   ```
 
 # Första gången du gör detta:
-- ** Första justeringar: **
+- **Första justeringar:**
   - Kör `npm run init-module` i root-mappen för att modulen ska komma upp i Sitevision.
   - Skapa en ny roll under webbplatsinställningarna, t.ex. **Developer**.
   - Peka ut personer eller en grupp på huset med rollen **Developer**.
@@ -33,7 +33,7 @@
   - Publicera grundmallen.
 
 # Om du vill starta dev-läget på en befintlig eller nyligt uppsatt miljö:
-- ** Devläge: **
+- **Devläge:**
   - Kör `npm run dev` i root-mappen.
   - Vänta tills sidan på [http://localhost:3000](http://localhost:3000) öppnas.
   - Klicka på dev-lägesknappen för att toggla på och börja styla i dev-läge!

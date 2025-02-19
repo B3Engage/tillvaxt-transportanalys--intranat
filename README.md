@@ -20,7 +20,7 @@
   }
   ```
 
-- # Första gången du gör detta:
+# Första gången du gör detta:
   - Kör `npm run init-module` i root-mappen för att modulen ska komma upp i Sitevision.
   - Skapa en ny roll under webbplatsinställningarna, t.ex. **Developer**.
   - Peka ut personer eller en grupp på huset med rollen **Developer**.

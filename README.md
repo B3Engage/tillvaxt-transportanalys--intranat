@@ -1,31 +1,48 @@
-# sitevision-boilerplate
+## Setup-instruktioner
 
-## Sätta upp nytt repo baserat på denna boilerplate:
+1. **Klona repot och installera beroenden:**
+   - Klona repot.
+   - Kör `npm install` i:
+     - root-mappen
+     - *dev-mode* mappen
+     - *styling-module* mappen
 
-Forka repot, välj namn på det nya repot och kom ihåg att välja att "b3grit" ska stå som ägare
+2. **Konfigurera `.dev_properties.json` i *styling-module*-mappen:**
 
-Klona repot, kör npm install i root-mappen, dev-mode mappen och i styling-module mappen
+   Skapa filen med följande innehåll:
+   ```json
+   {
+     "domain": "dse-b3grit-intra.sitevision-cloud.se",
+     "siteName": "Sitevision Intranät Demo",
+     "addonName": "Styling-module",
+     "username": "nick.lindstrom@b3.se",
+     "password": ""
+   }
+   ```
 
-sätt upp .dev_properties.json i styling-module mappen. Likt detta: 
-{ 
-  "domain": "dse-b3grit-intra.sitevision-cloud.se", 
-  "siteName": "Sitevision Intranät Demo", 
-  "addonName": "Styling-module", 
-  "username": "nick.lindstrom@b3.se", 
-  "password": "" 
-}
+3. **Första gången du gör detta:**
+   - Kör `npm run init-module` i root-mappen för att modulen ska komma upp i Sitevision.
+   - Skapa en ny roll under webbplatsinställningarna, t.ex. **Developer**.
+   - Peka ut personer eller en grupp på huset med rollen **Developer**.
 
-kör en "npm run init-module" i root-mappen för att modulen ska komma upp i Sitevision.
+4. **Grundmall-konfiguration:**
+   - Gå till **Grundmallen**.
+   - Lägg ut modulen **Styling-module**.
+   - Fyll i den roll du angav ovan (t.ex. **Developer**).
+   - Publicera grundmallen.
 
-Sätt upp en ny roll under webbplatsinställningarna, tex. "Developer"
+5. **För att starta dev-läget:**
+   - Kör `npm run dev` i root-mappen.
+   - Vänta tills sidan på [http://localhost:3000](http://localhost:3000) öppnas.
+   - Klicka på dev-lägesknappen för att toggla på och börja styla i dev-läge!
 
-Peka ut personer eller en grupp på huset med rollen Developer
+6. **Deploya ändringar:**
+   - När du är nöjd med ändringarna, kör `npm run force-deploy` för att publicera all styling från *Styling-module* till webbplatsen.
 
-Gå till Grundmallen och lägg ut modulen "Styling-module" och fyll i rollen du skrev ovan, tex. "Developer". Publicera grundmallen
-
-Kör "npm run dev" i root-mappen och invänta att sidan för localhost:3000 öppnas.
-
-Klicka på devläges knappen för att toggla på och börja styla i dev-läge !
-
-För att sedan deploya ändringar när du är nöjd, kör du enbart skriptet "npm run force-deploy", så kommer all styling du skrivit i Styling-module upp på webbplatsen.
-
+7. **Vid ändringar i CSS via dev-läget:**
+   - Skapa en ny branch från `main`.
+   - Gör dina ändringar i CSS enligt guiden ovan.
+   - Pusha dina ändringar till din branch.
+   - Merge till `main` via en pull request (kontrollera eventuella konflikter).
+   - Byt branch till `main` och gör en `git pull`.
+   - Om alla steg ovan fungerar bra kan du köra `npm run force-deploy` i root-mappen.

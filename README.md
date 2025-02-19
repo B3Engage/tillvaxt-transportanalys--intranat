@@ -1,4 +1,4 @@
-## Setup-instruktioner
+# Setup-instruktioner
 
 - **Klona repot och installera beroenden:**
   - Klona repot.
@@ -20,7 +20,7 @@
   }
   ```
 
-# Första gången du gör detta:
+## Första gången du gör detta:
 - **Första justeringar:**
   - Kör `npm run init-module` i root-mappen för att modulen ska komma upp i Sitevision.
   - Skapa en ny roll under webbplatsinställningarna, t.ex. **Developer**.
@@ -32,7 +32,7 @@
   - Fyll i den roll du angav ovan (t.ex. **Developer**).
   - Publicera grundmallen.
 
-# Om du vill starta dev-läget på en befintlig eller nyligt uppsatt miljö:
+## Om du vill starta dev-läget på en befintlig eller nyligt uppsatt miljö:
 - **Devläge:**
   - Kör `npm run dev` i root-mappen.
   - Vänta tills sidan på [http://localhost:3000](http://localhost:3000) öppnas.

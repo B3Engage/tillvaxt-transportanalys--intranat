@@ -15,7 +15,7 @@
     "domain": "dse-b3grit-intra.sitevision-cloud.se",
     "siteName": "Sitevision Intranät Demo",
     "addonName": "Styling-module",
-    "username": "nick.lindstrom@b3.se",
+    "username": "firstName.lastName@b3.se",
     "password": ""
   }
   ```

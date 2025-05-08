@@ -2,3 +2,5 @@ node_modules
 .dev_properties.json
 build
 webapps/*/dist
+restapps/*/dist
+dev-mode/dist/main.css

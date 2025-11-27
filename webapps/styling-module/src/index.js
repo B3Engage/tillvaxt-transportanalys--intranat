@@ -8,12 +8,18 @@ import versionUtil from "@sitevision/api/server/VersionUtil";
 import portletContext from "@sitevision/api/server/PortletContextUtil";
 import App from './components/App/App.js';
 
+const getCurrentPageId = () => {
+  let currentPageId = portletContext.getCurrentPage().getIdentifier();
+  if (!currentPageId.includes('_sitePage')) return currentPageId;
+  return currentPageId.replace('_sitePage', '');
+}
+
 const checkIfUserIsDeveloper = () => {
   if (!appData.get('roleName')) {
     return { message: 'Dev: Ingen roll utpekad' };
   }
   const roleMatcherBuilder = roleUtil.getRoleMatcherBuilder();
-  const currentUser = portletContext.getCurrentUser();
+  const currentUser = portletContext.getCurrentUser();s
   const currentPage = portletContext.getCurrentPage();
   roleMatcherBuilder.setUser(currentUser);
   const role = roleUtil.getRoleByName(appData.get('roleName'));
@@ -35,7 +41,7 @@ router.get('/', (req, res) => {
     }
     return;
   }
-  const id = portletContext.getCurrentPage().getIdentifier() + '/' + appInfo['jcr:uuid'];
+  const id = getCurrentPageId() + '/' + appInfo['jcr:uuid'];
 
   const initialObject = {
     id,

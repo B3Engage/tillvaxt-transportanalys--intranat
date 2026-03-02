@@ -19,7 +19,7 @@ const checkIfUserIsDeveloper = () => {
     return { message: 'Dev: Ingen roll utpekad' };
   }
   const roleMatcherBuilder = roleUtil.getRoleMatcherBuilder();
-  const currentUser = portletContext.getCurrentUser();s
+  const currentUser = portletContext.getCurrentUser();
   const currentPage = portletContext.getCurrentPage();
   roleMatcherBuilder.setUser(currentUser);
   const role = roleUtil.getRoleByName(appData.get('roleName'));

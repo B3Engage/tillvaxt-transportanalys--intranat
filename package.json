@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/b3grit/sitevision-dev-mode#readme",
   "dependencies": {
-    "browser-sync": "^2.29.1",
+    "browser-sync": "^3.0.4",
     "chokidar": "^3.6.0",
     "concurrently": "^8.2.2",
-    "socket.io": "^4.6.1"
+    "socket.io": "^4.8.3"
   }
 }

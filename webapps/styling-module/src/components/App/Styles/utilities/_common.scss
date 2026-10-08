@@ -1,0 +1,15 @@
+@use 'variables' as *;
+
+// Styling-module
+.dev-mode-toggle {
+  z-index: 10000;
+  position: fixed;
+  inset: auto 0 0 auto;
+  bottom: 116px;
+  border: none;
+  padding: 0;
+
+  &__image {
+    height: 49px;
+  }
+}

@@ -1,5 +1,42 @@
+// Colors
+$profile-color: var(--env-ui-color-brand);
+$profile-color-10: var(--env-ui-color-brand-10);
+$profile-color-15: var(--env-ui-color-brand-15);
+$profile-color-20: var(--env-ui-color-brand-20);
 
+$profile-color-text: var(--env-ui-color-brand-contrast);
+$profile-color-10-text: var(--env-ui-color-brand-10-contrast);
+$profile-color-15-text: var(--env-ui-color-brand-15-contrast);
+$profile-color-20-text: var(--env-ui-color-brand-20-contrast);
 
+$background: var(--env-background-color);
+$section-background: var(--env-section-background-color);
+
+$block-standard-background: var(--env-block-background-color);
+$block-standard-text: var(--env-block-font-color);
+
+$block-primary-background: var(--env-block-primary-background-color);
+$block-primary-text: var(--env-block-primary-font-color);
+
+$block-secondary-background: var(--env-block-secondary-background-color);
+$block-secondary-text: var(--env-block-secondary-font-color);
+
+$text-primary: var(--env-font-color);
+$link-primary: var(--env-link-font-color);
+
+$element-standard-background: var(--env-element-background-color);
+$element-standard-text: var(--env-element-font-color);
+
+$element-primary-background: var(--env-element-primary-background-color);
+$element-primary-text: var(--env-element-primary-font-color);
+
+$element-secondary-background: var(--env-element-secondary-background-color);
+$element-secondary-text: var(--env-element-secondary-font-color);
+
+// Screen sizes
+$tablet: 1024px;
+$mobile: 767px;
+$mobile-small: 460px;
 
 // Typography
 $font-family: var(--env-font-family);
@@ -35,12 +72,8 @@ $text-sectionheading-font-family: var(--env-ui-text-sectionheading-font-family);
 $text-sectionheading-font-color: var(--env-ui-text-sectionheading-font-color);
 $text-sectionheading-font-size: var(--env-ui-text-sectionheading-font-size);
 $text-sectionheading-font-weight: var(--env-ui-text-sectionheading-font-weight);
-$text-sectionheading-text-transform: var(
-    --env-ui-text-sectionheading-text-transform
-);
-$text-sectionheading-letter-spacing: var(
-    --env-ui-text-sectionheading-letter-spacing
-);
+$text-sectionheading-text-transform: var(--env-ui-text-sectionheading-text-transform);
+$text-sectionheading-letter-spacing: var(--env-ui-text-sectionheading-letter-spacing);
 
 /* Subheading Text Variables */
 $text-subheading-font-family: var(--env-ui-text-subheading-font-family);
@@ -70,9 +103,7 @@ $link-hover-text-decoration: var(--env-link-hover-text-decoration);
 $link-secondary-font-color: var(--env-link-secondary-font-color);
 $link-secondary-text-decoration: var(--env-link-secondary-text-decoration);
 $link-secondary-hover-font-color: var(--env-link-secondary-hover-font-color);
-$link-secondary-hover-text-decoration: var(
-    --env-link-secondary-hover-text-decoration
-);
+$link-secondary-hover-text-decoration: var(--env-link-secondary-hover-text-decoration);
 
 // Spacing
 $spacing-xxx-small: var(--env-spacing-xxx-small);
@@ -143,35 +174,35 @@ $block-primary-font-color: var(--env-block-primary-font-color);
 $block-primary-background-color: var(--env-block-primary-background-color);
 $block-primary-border-color: var(--env-block-primary-border-color);
 $block-primary-link-font-color: var(--env-block-primary-link-font-color);
-$block-primary-link-hover-font-color: var(
-    --env-block-primary-link-hover-font-color
-);
-$block-primary-link-text-decoration: var(
-    --env-block-primary-link-text-decoration
-);
-$block-primary-link-hover-text-decoration: var(
-    --env-block-primary-link-hover-text-decoration
-);
+$block-primary-link-hover-font-color: var(--env-block-primary-link-hover-font-color);
+$block-primary-link-text-decoration: var(--env-block-primary-link-text-decoration);
+$block-primary-link-hover-text-decoration: var(--env-block-primary-link-hover-text-decoration);
 /* Secondary Block Variables */
 $block-secondary-font-color: var(--env-block-secondary-font-color);
 $block-secondary-background-color: var(--env-block-secondary-background-color);
 $block-secondary-border-color: var(--env-block-secondary-border-color);
 $block-secondary-link-font-color: var(--env-block-secondary-link-font-color);
-$block-secondary-link-hover-font-color: var(
-    --env-block-secondary-link-hover-font-color
-);
-$block-secondary-link-text-decoration: var(
-    --env-block-secondary-link-text-decoration
-);
-$block-secondary-link-hover-text-decoration: var(
-    --env-block-secondary-link-hover-text-decoration
-);
+$block-secondary-link-hover-font-color: var(--env-block-secondary-link-hover-font-color);
+$block-secondary-link-text-decoration: var(--env-block-secondary-link-text-decoration);
+$block-secondary-link-hover-text-decoration: var(--env-block-secondary-link-hover-text-decoration);
 
 // Elements
 $element-font-color: var(--env-element-font-color);
 $element-background-color: var(--env-element-background-color);
 $element-background-color-dark: var(--env-element-background-color-dark);
 $element-background-color-light: var(--env-element-background-color-light);
+
+$success-background: var(--env-element-success-background-color);
+$success-color: var(--env-element-success-font-color);
+
+$danger-background: var(--env-element-danger-background-color);
+$danger-color: var(--env-element-danger-font-color);
+
+$warning-background: var(--env-element-warning-background-color);
+$warning-color: var(--env-element-warning-font-color);
+
+$info-background: var(--env-element-info-background-color);
+$info-color: var(--env-element-info-font-color);
 
 // Status
 $status-neutral: var(--env-status-neutral);
@@ -226,9 +257,7 @@ $collapse-icon-height: var(--env-collapse-icon-height);
 $collapse-toggle-duration: var(--env-collapse-toggle-duration);
 $collapse-background-color: var(--env-collapse-background-color);
 $collapse-border-color: var(--env-collapse-border-color);
-$collapse-expanded-background-color: var(
-    --env-collapse-expanded-background-color
-);
+$collapse-expanded-background-color: var(--env-collapse-expanded-background-color);
 $collapse-expanded-border-color: var(--env-collapse-expanded-border-color);
 
 // Form
@@ -254,9 +283,7 @@ $pagination-border-style: var(--env-pagination-border-style);
 $popover-width: var(--env-popover-width);
 
 // Progress indicator
-$progress-bar-poll-highlight-color: var(
-    --env-progress-bar-poll-highlight-color
-);
+$progress-bar-poll-highlight-color: var(--env-progress-bar-poll-highlight-color);
 
 // Profile image
 $profile-image-border-radius: var(--env-profile-image-border-radius);

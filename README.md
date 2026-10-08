@@ -18,7 +18,9 @@
     "siteName": "Sitevision Intranät Demo",
     "addonName": "Styling-module",
     "username": "firstName.lastName@b3.se",
-    "password": ""
+    "password": "",
+    "signUsername": "firstName.lastName@b3.se",
+    "certificateName": "B3 Engage",
   }
   ```
 

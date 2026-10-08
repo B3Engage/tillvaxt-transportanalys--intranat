@@ -1,6 +1,7 @@
-# webapp-boilerplate
+# Styling module
 
-Boilerplate code for a simple WebApp
+## Inställningar
+- Rollnamn
 
 ## Developing
 
@@ -30,5 +31,3 @@ Some packages are intended to run both on the client and the server. And they ar
 - `npm run setup-dev-properties` creates .dev-properties.json with information about the development environment
 
 [Visit developer.sitevision.se for more information](https://developer.sitevision.se)
-
-

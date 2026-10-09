@@ -1,8 +1,6 @@
-# Setup-instruktioner
+# Tillväxt & Transportanalys - Intranät
 
-- **Klona repot och installera beroenden:**
-
-  - Klona repot.
+- **Uppsättning**
   - Kör `npm install` i:
     - root-mappen
     - _dev-mode_ mappen
